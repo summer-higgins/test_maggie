@@ -1,0 +1,42 @@
+.DS_Store
+
+# Claude / AI assistant config (keep local only)
+CLAUDE.md
+AGENTS.md
+.claude/
+
+# Dependencies
+node_modules/
+
+# Environment (never commit secrets)
+.env
+.env.local
+apps/mobile/.env
+apps/mobile/.env.local
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native build artifacts
+apps/mobile/ios/
+apps/mobile/android/
+.kotlin/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# TypeScript
+*.tsbuildinfo
